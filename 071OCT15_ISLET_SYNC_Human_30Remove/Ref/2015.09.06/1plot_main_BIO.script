@@ -1,0 +1,107 @@
+#!/bin/sh
+
+#=========================================================================================
+# Loai bo, chi lay tu cot 31 den cot 37 cua file parameter.in
+cut -c31-37 1parameter.in > parameter_file_giantiep.dat
+
+# Doc gia tri dua vao so dong
+i=1
+while [ $i -le 25 ]
+do
+read value
+
+if [ $i -eq 3 ]
+then
+data=$value
+fi
+
+if [ $i -eq 4 ]
+then
+Pb=$value
+fi
+
+if [ $i -eq 8 ]
+then
+Kab=$value
+fi
+
+if [ $i -eq 9 ]
+then
+Kad=$value
+fi
+
+i=$(echo "scale=0; $i+1" | bc)
+done < parameter_file_giantiep.dat
+
+rm parameter_file_giantiep.dat
+echo "Name Data: " $data
+echo "Load phi: " $load
+echo "Kab:" $Kab
+echo "Kad: " $Kad
+# =============================================================================================
+# =============================================================================================
+# VE DO THI
+# =============================================================================================
+# =============================================================================================
+
+gnuplot -persist << EOF
+set term postscript enhanced eps color 26
+set autoscale
+set key right top
+set pointsize 1
+set xlabel "t"
+set ylabel "r"
+set yrange [-0.1:1.1]
+set mytics 2
+set ytics 0.2
+set output "r.eps"
+set title "$data : Kab=$Kab, Kad=$Kad"
+plot "rtime.dat" u 1:2 notitle w l lt -1 lw 2 lc rgb "red",\
+"rtime.dat" u 1:3 notitle w l lt 12 lw 3 lc rgb "green",\
+"rtime.dat" u 1:4 notitle w l lt -1 lw 2 lc rgb "blue",\
+"rtime.dat" u 1:5 notitle w l lt -1 lw 2
+EOF
+
+gnuplot -persist << EOF
+set term postscript enhanced eps color 26
+set autoscale
+set key right top
+set pointsize 1
+set xlabel "t"
+set ylabel "phi"
+set yrange [0:6.3]
+set output "phi.eps"
+set title "$data : Kab=$Kab, Kad=$Kad"
+plot "phi_time.dat" u 1:2 notitle w l lt -1 lw 2 lc rgb "red",\
+"phi_time.dat" u 1:3 notitle w l lt 12 lw 3 lc rgb "green",\
+"phi_time.dat" u 1:4 notitle w l lt -1 lw 2 lc rgb "blue"
+EOF
+
+gnuplot -persist << EOF
+set term postscript enhanced eps color 26
+set autoscale
+set key right top
+set pointsize 1
+set xlabel "t"
+set ylabel "del phi"
+set yrange [0:6.3]
+set output "phi_delta.eps"
+set title "$data : Kab=$Kab, Kad=$Kad"
+plot "phi_time.dat" u 1:5 notitle w l lt 12 lw 3 lc rgb "green",\
+"phi_time.dat" u 1:6 notitle w l lt -1 lw 2 lc rgb "blue"
+EOF
+
+
+gnuplot -persist << EOF
+set term postscript enhanced eps color 26
+set autoscale
+set key right top
+set pointsize 1
+set xlabel "phi"
+set ylabel "P"
+set output "P.eps"
+plot "histogram.dat" u 1:2 t "P1" w p pt 7 lc rgb "red",\
+"histogram.dat" u 1:3 t "P2" w p pt 13 lc rgb "green",\
+"histogram.dat" u 1:4 t "P3" w p pt 11 lc rgb "blue"
+EOF
+

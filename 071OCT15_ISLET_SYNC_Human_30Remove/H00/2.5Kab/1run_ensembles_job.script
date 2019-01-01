@@ -1,0 +1,27 @@
+#!/bin/sh
+#echo -n "Number of folder = "
+#read n
+n=5
+
+i=1
+while [ $i -le $n ]
+do
+cp -r a $i
+cd $i
+rm a.out
+gfortran -Wall -fdefault-integer-8 -fdefault-real-8 1main_BIO.f90
+#./a.out &
+qsub 0job
+
+cd ..
+
+i=$(echo "scale=0; $i+1" | bc)
+done
+
+rm -r a
+
+
+
+
+
+

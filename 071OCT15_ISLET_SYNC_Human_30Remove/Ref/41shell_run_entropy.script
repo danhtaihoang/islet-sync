@@ -1,0 +1,59 @@
+#!/bin/sh
+
+cd 0.1Kab
+./4run_entropy.script
+cd ..
+
+cd 0.2Kab
+./4run_entropy.script
+cd ..
+
+cd 0.25Kab
+./4run_entropy.script
+cd ..
+
+cd 0.4Kab
+./4run_entropy.script
+cd ..
+
+cd 0.5Kab
+./4run_entropy.script
+cd ..
+
+cd 0.8Kab
+./4run_entropy.script
+cd ..
+
+cd 1Kab
+./4run_entropy.script
+cd ..
+
+cd 2Kab
+./4run_entropy.script
+cd ..
+
+cd 5Kab
+./4run_entropy.script
+cd ..
+
+cd 10Kab
+./4run_entropy.script
+cd ..
+
+cd 20Kab
+./4run_entropy.script
+cd ..
+
+cd 40Kab
+./4run_entropy.script
+cd ..
+
+cd 50Kab
+./4run_entropy.script
+cd ..
+
+cd 100Kab
+./4run_entropy.script
+cd ..
+
+

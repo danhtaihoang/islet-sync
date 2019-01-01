@@ -1,0 +1,16 @@
+#!/bin/sh
+
+gnuplot -persist << EOF
+set term postscript enhanced eps color 26
+set autoscale
+set key right top
+set pointsize 1
+set xlabel "Kab"
+set ylabel "Sa"
+set output "Sa-Sb.eps"
+plot "entropy_av.txt" u 1:2 notitle w l lt 1 lc rgb "black",\
+"entropy_av.txt" u 1:2 notitle w p pt 7 lc rgb "black",\
+"entropy_av.txt" u 1:3 notitle w l lt 2 lc rgb "blue",\
+"entropy_av.txt" u 1:3 notitle w p pt 13 lc rgb "blue"
+EOF
+

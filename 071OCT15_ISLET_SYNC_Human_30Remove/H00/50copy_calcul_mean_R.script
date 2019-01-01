@@ -1,0 +1,18 @@
+#!/bin/sh
+cp 0mean_R.f90 0.1Kab
+cp 0mean_R.f90 0.125Kab
+cp 0mean_R.f90 0.2Kab
+cp 0mean_R.f90 0.25Kab
+cp 0mean_R.f90 0.4Kab
+cp 0mean_R.f90 0.5Kab
+cp 0mean_R.f90 0.8Kab
+cp 0mean_R.f90 1Kab
+cp 0mean_R.f90 1.25Kab
+cp 0mean_R.f90 1.6Kab
+cp 0mean_R.f90 2Kab
+cp 0mean_R.f90 2.5Kab
+cp 0mean_R.f90 3.2Kab
+cp 0mean_R.f90 4Kab
+cp 0mean_R.f90 5Kab
+cp 0mean_R.f90 8Kab
+cp 0mean_R.f90 10Kab

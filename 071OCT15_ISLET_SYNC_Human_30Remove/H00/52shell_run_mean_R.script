@@ -1,0 +1,71 @@
+#!/bin/sh
+
+cd 0.1Kab
+./2run_mean_R.script
+cd ..
+
+cd 0.125Kab
+./2run_mean_R.script
+cd ..
+
+cd 0.2Kab
+./2run_mean_R.script
+cd ..
+
+cd 0.25Kab
+./2run_mean_R.script
+cd ..
+
+cd 0.4Kab
+./2run_mean_R.script
+cd ..
+
+cd 0.5Kab
+./2run_mean_R.script
+cd ..
+
+cd 0.8Kab
+./2run_mean_R.script
+cd ..
+
+cd 1Kab
+./2run_mean_R.script
+cd ..
+
+cd 1.25Kab
+./2run_mean_R.script
+cd ..
+
+cd 1.6Kab
+./2run_mean_R.script
+cd ..
+
+cd 2Kab
+./2run_mean_R.script
+cd ..
+
+cd 2.5Kab
+./2run_mean_R.script
+cd ..
+
+cd 3.2Kab
+./2run_mean_R.script
+cd ..
+
+cd 4Kab
+./2run_mean_R.script
+cd ..
+
+cd 5Kab
+./2run_mean_R.script
+cd ..
+
+cd 8Kab
+./2run_mean_R.script
+cd ..
+
+cd 10Kab
+./2run_mean_R.script
+cd ..
+
+

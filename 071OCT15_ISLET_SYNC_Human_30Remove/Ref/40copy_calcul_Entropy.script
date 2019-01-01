@@ -1,0 +1,15 @@
+#!/bin/sh
+cp 4Entropy.f90 0.1Kab
+cp 4Entropy.f90 0.2Kab
+cp 4Entropy.f90 0.25Kab
+cp 4Entropy.f90 0.4Kab
+cp 4Entropy.f90 0.5Kab
+cp 4Entropy.f90 0.8Kab
+cp 4Entropy.f90 1Kab
+cp 4Entropy.f90 2Kab
+cp 4Entropy.f90 5Kab
+cp 4Entropy.f90 10Kab
+cp 4Entropy.f90 20Kab
+cp 4Entropy.f90 40Kab
+cp 4Entropy.f90 50Kab
+cp 4Entropy.f90 100Kab

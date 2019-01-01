@@ -1,0 +1,6 @@
+#!/bin/sh
+
+rm a.out
+gfortran -Wall 0mean_R.f90
+./a.out
+

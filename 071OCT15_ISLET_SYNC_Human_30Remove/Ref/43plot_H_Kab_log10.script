@@ -1,0 +1,19 @@
+#!/bin/sh
+
+gnuplot -persist << EOF
+set term postscript enhanced eps color 26
+set autoscale
+set key right top
+set pointsize 1
+set logscale x 10
+set xlabel "Kab"
+set ylabel "Ha-Hb"
+set output "Ha-Hb.eps"
+plot "entropy_av.txt" u 2:3 notitle w l lt 1 lc rgb "black",\
+"entropy_av.txt" u 2:3 notitle w p pt 7 lc rgb "black",\
+"entropy_av.txt" u 2:4 notitle w l lt 2 lc rgb "blue",\
+"entropy_av.txt" u 2:4 notitle w p pt 13 lc rgb "blue",\
+"entropy_av.txt" u 2:5 notitle w l lt 1 lc rgb "red",\
+"entropy_av.txt" u 2:5 notitle w p pt 11 lc rgb "red"
+EOF
+

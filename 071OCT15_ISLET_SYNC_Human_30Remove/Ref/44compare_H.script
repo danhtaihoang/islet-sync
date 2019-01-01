@@ -1,0 +1,20 @@
+#!/bin/sh
+
+gnuplot -persist << EOF
+set term postscript enhanced eps color 26
+set autoscale
+set key right top
+set pointsize 1
+set logscale x 10
+set xlabel "Kab"
+set ylabel "Sb"
+set output "Sb-compare.eps"
+plot "entropy_av_725_70.txt" u 1:3 notitle w l lt 1 lc rgb "black",\
+"entropy_av_725_70.txt" u 1:3 notitle w p pt 7 lc rgb "black",\
+"entropy_av_702.txt" u 1:3 notitle w l lt 1 lc rgb "blue",\
+"entropy_av_702.txt" u 1:3 notitle w p pt 13 lc rgb "blue",\
+"entropy_av_2493_70.txt" u 1:3 notitle w l lt 1 lc rgb "red",\
+"entropy_av_2493_70.txt" u 1:3 notitle w p pt 11 lc rgb "red",\
+"entropy_av_725_80.txt" u 1:3 notitle w l lt 2 lc rgb "black",\
+"entropy_av_2493_60.txt" u 1:3 notitle w l lt 2 lc rgb "red"
+EOF

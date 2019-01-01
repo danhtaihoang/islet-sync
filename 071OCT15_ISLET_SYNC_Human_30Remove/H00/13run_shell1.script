@@ -1,0 +1,34 @@
+#!/bin/sh
+
+cd 0.1Kab
+./1run_ensembles.script
+cd ..
+
+cd 0.125Kab
+./1run_ensembles.script
+cd ..
+
+cd 0.2Kab
+./1run_ensembles.script
+cd ..
+
+cd 0.25Kab
+./1run_ensembles.script
+cd ..
+
+cd 0.4Kab
+./1run_ensembles.script
+cd ..
+
+cd 0.5Kab
+./1run_ensembles.script
+cd ..
+
+cd 0.8Kab
+./1run_ensembles.script
+cd ..
+
+cd 1Kab
+./1run_ensembles.script
+cd ..
+

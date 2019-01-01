@@ -1,0 +1,29 @@
+#!/bin/sh
+
+i=1
+while [ $i -le 5 ]
+do
+cp 4Entropy.f90 $i
+cd $i
+rm a.out
+gfortran -Wall 4Entropy.f90
+./a.out
+cd ..
+
+i=$(echo "scale=0; $i+1" | bc)
+done
+
+#./52collect_max_min.script
+rm entropy.dat
+
+i=1
+while [ $i -le 5 ]
+do
+cat $i/entropy.dat >> entropy.dat
+
+i=$(echo "scale=0; $i+1" | bc)
+done
+
+rm a.out
+gfortran -Wall 4mean_S.f90
+./a.out

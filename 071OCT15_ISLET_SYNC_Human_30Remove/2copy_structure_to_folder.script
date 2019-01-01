@@ -1,0 +1,32 @@
+#!/bin/sh
+
+cp 0H01_30.txt H01/a
+cp 0H02_30.txt H02/a
+cp 0H04_30.txt H04/a
+cp 0H05_30.txt H05/a
+cp 0H06_30.txt H06/a
+cp 0H07_30.txt H07/a
+cp 0H08_30.txt H08/a
+cp 0H09_30.txt H09/a
+cp 0H10_30.txt H10/a
+
+cp 0H11_30.txt H11/a
+cp 0H12_30.txt H12/a
+cp 0H13_30.txt H13/a
+cp 0H14_30.txt H14/a
+cp 0H15_30.txt H15/a
+cp 0H16_30.txt H16/a
+cp 0H17_30.txt H17/a
+cp 0H18_30.txt H18/a
+cp 0H19_30.txt H19/a
+cp 0H20_30.txt H20/a
+
+cp 0H21_30.txt H21/a
+cp 0H22_30.txt H22/a
+cp 0H23_30.txt H23/a
+cp 0H25_30.txt H25/a
+cp 0H26_30.txt H26/a
+cp 0H27_30.txt H27/a
+cp 0H28_30.txt H28/a
+cp 0H29_30.txt H29/a
+cp 0H30_30.txt H30/a

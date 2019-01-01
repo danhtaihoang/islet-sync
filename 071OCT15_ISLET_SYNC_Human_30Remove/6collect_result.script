@@ -1,0 +1,35 @@
+#!/bin/sh
+
+cp H01/average_av.txt  average_H01.txt
+cp H02/average_av.txt  average_H02.txt
+cp H04/average_av.txt  average_H04.txt
+cp H05/average_av.txt  average_H05.txt
+cp H06/average_av.txt  average_H06.txt
+cp H07/average_av.txt  average_H07.txt
+cp H08/average_av.txt  average_H08.txt
+cp H09/average_av.txt  average_H09.txt
+
+cp H10/average_av.txt  average_H10.txt
+cp H11/average_av.txt  average_H11.txt
+cp H12/average_av.txt  average_H12.txt
+cp H13/average_av.txt  average_H13.txt
+cp H14/average_av.txt  average_H14.txt
+cp H15/average_av.txt  average_H15.txt
+cp H16/average_av.txt  average_H16.txt
+cp H17/average_av.txt  average_H17.txt
+cp H18/average_av.txt  average_H18.txt
+cp H19/average_av.txt  average_H19.txt
+
+cp H20/average_av.txt  average_H20.txt
+cp H21/average_av.txt  average_H21.txt
+cp H22/average_av.txt  average_H22.txt
+cp H23/average_av.txt  average_H23.txt
+cp H25/average_av.txt  average_H25.txt
+cp H26/average_av.txt  average_H26.txt
+cp H27/average_av.txt  average_H27.txt
+cp H28/average_av.txt  average_H28.txt
+cp H29/average_av.txt  average_H29.txt
+cp H30/average_av.txt  average_H30.txt
+
+
+

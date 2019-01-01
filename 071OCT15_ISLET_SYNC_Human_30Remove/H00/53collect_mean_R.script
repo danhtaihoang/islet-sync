@@ -1,0 +1,63 @@
+#!/bin/sh
+
+rm average_av.txt
+
+cat 0.1Kab/average_av.dat >> average_av.txt
+cat 0.125Kab/average_av.dat >> average_av.txt
+cat 0.2Kab/average_av.dat >> average_av.txt
+cat 0.25Kab/average_av.dat >> average_av.txt
+cat 0.4Kab/average_av.dat >> average_av.txt
+cat 0.5Kab/average_av.dat >> average_av.txt
+cat 0.8Kab/average_av.dat >> average_av.txt
+cat 1Kab/average_av.dat >> average_av.txt
+cat 1.25Kab/average_av.dat >> average_av.txt
+cat 1.6Kab/average_av.dat >> average_av.txt
+cat 2Kab/average_av.dat >> average_av.txt
+cat 2.5Kab/average_av.dat >> average_av.txt
+cat 3.2Kab/average_av.dat >> average_av.txt
+cat 4Kab/average_av.dat >> average_av.txt
+cat 5Kab/average_av.dat >> average_av.txt
+cat 8Kab/average_av.dat >> average_av.txt
+cat 10Kab/average_av.dat >> average_av.txt
+
+rm Ra_dev.txt
+
+cat 0.1Kab/Ra_dev.dat >> Ra_dev.txt
+cat 0.125Kab/Ra_dev.dat >> Ra_dev.txt
+cat 0.2Kab/Ra_dev.dat >> Ra_dev.txt
+cat 0.25Kab/Ra_dev.dat >> Ra_dev.txt
+cat 0.4Kab/Ra_dev.dat >> Ra_dev.txt
+cat 0.5Kab/Ra_dev.dat >> Ra_dev.txt
+cat 0.8Kab/Ra_dev.dat >> Ra_dev.txt
+cat 1Kab/Ra_dev.dat >> Ra_dev.txt
+cat 1.25Kab/Ra_dev.dat >> Ra_dev.txt
+cat 1.6Kab/Ra_dev.dat >> Ra_dev.txt
+cat 2Kab/Ra_dev.dat >> Ra_dev.txt
+cat 2.5Kab/Ra_dev.dat >> Ra_dev.txt
+cat 3.2Kab/Ra_dev.dat >> Ra_dev.txt
+cat 4Kab/Ra_dev.dat >> Ra_dev.txt
+cat 5Kab/Ra_dev.dat >> Ra_dev.txt
+cat 8Kab/Ra_dev.dat >> Ra_dev.txt
+cat 10Kab/Ra_dev.dat >> Ra_dev.txt
+
+rm Rd_dev.txt
+
+cat 0.1Kab/Rd_dev.dat >> Rd_dev.txt
+cat 0.125Kab/Rd_dev.dat >> Rd_dev.txt
+cat 0.2Kab/Rd_dev.dat >> Rd_dev.txt
+cat 0.25Kab/Rd_dev.dat >> Rd_dev.txt
+cat 0.4Kab/Rd_dev.dat >> Rd_dev.txt
+cat 0.5Kab/Rd_dev.dat >> Rd_dev.txt
+cat 0.8Kab/Rd_dev.dat >> Rd_dev.txt
+cat 1Kab/Rd_dev.dat >> Rd_dev.txt
+cat 1.25Kab/Rd_dev.dat >> Rd_dev.txt
+cat 1.6Kab/Rd_dev.dat >> Rd_dev.txt
+cat 2Kab/Rd_dev.dat >> Rd_dev.txt
+cat 2.5Kab/Rd_dev.dat >> Rd_dev.txt
+cat 3.2Kab/Rd_dev.dat >> Rd_dev.txt
+cat 4Kab/Rd_dev.dat >> Rd_dev.txt
+cat 5Kab/Rd_dev.dat >> Rd_dev.txt
+cat 8Kab/Rd_dev.dat >> Rd_dev.txt
+cat 10Kab/Rd_dev.dat >> Rd_dev.txt
+
+

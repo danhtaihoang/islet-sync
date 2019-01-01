@@ -1,0 +1,35 @@
+#!/bin/sh
+
+cp -r H00 H01
+cp -r H00 H02
+cp -r H00 H04
+cp -r H00 H05
+cp -r H00 H06
+cp -r H00 H07
+cp -r H00 H08
+cp -r H00 H09
+cp -r H00 H10
+
+cp -r H00 H11
+cp -r H00 H12
+cp -r H00 H13
+cp -r H00 H14
+cp -r H00 H15
+cp -r H00 H16
+cp -r H00 H17
+cp -r H00 H18
+cp -r H00 H19
+cp -r H00 H20
+
+cp -r H00 H21
+cp -r H00 H22
+cp -r H00 H23
+cp -r H00 H25
+cp -r H00 H26
+cp -r H00 H27
+cp -r H00 H28
+cp -r H00 H29
+cp -r H00 H30
+
+
+

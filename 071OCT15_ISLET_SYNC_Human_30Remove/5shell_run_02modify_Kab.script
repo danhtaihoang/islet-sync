@@ -1,0 +1,113 @@
+#!/bin/sh
+
+cd H01
+./02modify_Kab.script
+cd ..
+
+cd H02
+./02modify_Kab.script
+cd ..
+
+cd H04
+./02modify_Kab.script
+cd ..
+
+cd H05
+./02modify_Kab.script
+cd ..
+
+cd H06
+./02modify_Kab.script
+cd ..
+
+cd H07
+./02modify_Kab.script
+cd ..
+
+cd H08
+./02modify_Kab.script
+cd ..
+
+cd H09
+./02modify_Kab.script
+cd ..
+
+cd H10
+./02modify_Kab.script
+cd ..
+
+cd H11
+./02modify_Kab.script
+cd ..
+
+cd H12
+./02modify_Kab.script
+cd ..
+
+cd H13
+./02modify_Kab.script
+cd ..
+
+cd H14
+./02modify_Kab.script
+cd ..
+
+cd H15
+./02modify_Kab.script
+cd ..
+
+cd H16
+./02modify_Kab.script
+cd ..
+
+cd H17
+./02modify_Kab.script
+cd ..
+
+cd H18
+./02modify_Kab.script
+cd ..
+
+cd H19
+./02modify_Kab.script
+cd ..
+
+cd H20
+./02modify_Kab.script
+cd ..
+
+cd H21
+./02modify_Kab.script
+cd ..
+
+cd H22
+./02modify_Kab.script
+cd ..
+
+cd H23
+./02modify_Kab.script
+cd ..
+
+cd H25
+./02modify_Kab.script
+cd ..
+
+cd H26
+./02modify_Kab.script
+cd ..
+
+cd H27
+./02modify_Kab.script
+cd ..
+
+cd H28
+./02modify_Kab.script
+cd ..
+
+cd H29
+./02modify_Kab.script
+cd ..
+
+cd H30
+./02modify_Kab.script
+cd ..

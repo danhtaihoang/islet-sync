@@ -1,0 +1,164 @@
+#!/bin/sh
+
+cd H02
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H02_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H04
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H04_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H05
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H05_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H06
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H06_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H07
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H07_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H08
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H08_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H09
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H09_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H10
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H10_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H11
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H11_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H12
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H12_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H13
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H13_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H14
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H14_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H15
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H15_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H16
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H16_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H17
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H17_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H18
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H18_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H19
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H19_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H20
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H20_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H21
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H21_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H22
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H22_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H23
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H23_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H25
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H25_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H26
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H26_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H27
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H27_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H28
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H28_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H29
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H29_30/g" 1parameter.in
+cd ..
+cd ..
+
+cd H30
+cd a
+sed -i "s/'NAME_DATA                 '  H01_30/'NAME_DATA                 '  H30_30/g" 1parameter.in
+cd ..
+cd ..
+

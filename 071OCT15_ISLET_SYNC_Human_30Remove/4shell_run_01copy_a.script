@@ -1,0 +1,114 @@
+#!/bin/sh
+
+cd H01
+./01copy_a.script
+cd ..
+
+cd H02
+./01copy_a.script
+cd ..
+
+cd H04
+./01copy_a.script
+cd ..
+
+cd H05
+./01copy_a.script
+cd ..
+
+cd H06
+./01copy_a.script
+cd ..
+
+cd H07
+./01copy_a.script
+cd ..
+
+cd H08
+./01copy_a.script
+cd ..
+
+cd H09
+./01copy_a.script
+cd ..
+
+cd H10
+./01copy_a.script
+cd ..
+
+cd H11
+./01copy_a.script
+cd ..
+
+cd H12
+./01copy_a.script
+cd ..
+
+cd H13
+./01copy_a.script
+cd ..
+
+cd H14
+./01copy_a.script
+cd ..
+
+cd H15
+./01copy_a.script
+cd ..
+
+cd H16
+./01copy_a.script
+cd ..
+
+cd H17
+./01copy_a.script
+cd ..
+
+cd H18
+./01copy_a.script
+cd ..
+
+cd H19
+./01copy_a.script
+cd ..
+
+cd H20
+./01copy_a.script
+cd ..
+
+cd H21
+./01copy_a.script
+cd ..
+
+cd H22
+./01copy_a.script
+cd ..
+
+cd H23
+./01copy_a.script
+cd ..
+
+cd H25
+./01copy_a.script
+cd ..
+
+cd H26
+./01copy_a.script
+cd ..
+
+cd H27
+./01copy_a.script
+cd ..
+
+cd H28
+./01copy_a.script
+cd ..
+
+cd H29
+./01copy_a.script
+cd ..
+
+cd H30
+./01copy_a.script
+cd ..
+

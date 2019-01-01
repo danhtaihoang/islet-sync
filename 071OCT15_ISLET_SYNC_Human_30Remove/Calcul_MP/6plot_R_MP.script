@@ -1,0 +1,27 @@
+#!/bin/sh
+
+gnuplot -persist << EOF
+set term postscript enhanced eps color 26
+set autoscale
+set key right top
+set pointsize 1
+set logscale x 10
+set xlabel "Kab"
+set ylabel "R"
+set xrange [0.09:110]
+set output "R_MP_compare.eps"
+plot "average_MP.dat" u 2:6:7:8 notitle w yerrorbars pt 7 lc rgb "black",\
+"average_MP.dat" u 2:6 notitle w l lt 1 lc rgb "black",\
+"Ra_MP.dat" u 2:3:4:5 notitle w yerrorbars pt 13 lc rgb "red",\
+"Ra_MP.dat" u 2:3 notitle w l lt 1 lc rgb "red",\
+"Ra_MP.dat" u 2:6:7:8 notitle w yerrorbars pt 11 lc rgb "green",\
+"Ra_MP.dat" u 2:6 notitle w l lt 1 lc rgb "green",\
+"Rd_MP.dat" u 2:3:4:5 notitle w yerrorbars pt 65 lc rgb "blue",\
+"Rd_MP.dat" u 2:3 notitle w l lt 1 lc rgb "blue",\
+"average_MP_H40.dat" u 2:6:7:8 notitle w yerrorbars pt 7 lc rgb "black",\
+"average_MP_H40.dat" u 2:6 notitle w l lt 2 lc rgb "black",\
+"Ra_MP_H40.dat" u 2:3:4:5 notitle w yerrorbars pt 13 lc rgb "red",\
+"Ra_MP_H40.dat" u 2:3 notitle w l lt 2 lc rgb "red",\
+"Ra_MP_H40.dat" u 2:6:7:8 notitle w yerrorbars pt 11 lc rgb "green",\
+"Ra_MP_H40.dat" u 2:6 notitle w l lt 2 lc rgb "green"
+EOF

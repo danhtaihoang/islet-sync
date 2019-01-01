@@ -1,0 +1,26 @@
+#!/bin/sh
+
+rm entropy_av.txt
+
+cat 0.1Kab/entropy_av.dat >> entropy_av.txt
+cat 0.2Kab/entropy_av.dat >> entropy_av.txt
+cat 0.25Kab/entropy_av.dat >> entropy_av.txt
+cat 0.32Kab/entropy_av.dat >> entropy_av.txt
+cat 0.4Kab/entropy_av.dat >> entropy_av.txt
+cat 0.5Kab/entropy_av.dat >> entropy_av.txt
+cat 0.8Kab/entropy_av.dat >> entropy_av.txt
+cat 1Kab/entropy_av.dat >> entropy_av.txt
+cat 2Kab/entropy_av.dat >> entropy_av.txt
+cat 2.5Kab/entropy_av.dat >> entropy_av.txt
+cat 3.2Kab/entropy_av.dat >> entropy_av.txt
+cat 4Kab/entropy_av.dat >> entropy_av.txt
+cat 5Kab/entropy_av.dat >> entropy_av.txt
+cat 6Kab/entropy_av.dat >> entropy_av.txt
+cat 8Kab/entropy_av.dat >> entropy_av.txt
+cat 10Kab/entropy_av.dat >> entropy_av.txt
+cat 20Kab/entropy_av.dat >> entropy_av.txt
+cat 40Kab/entropy_av.dat >> entropy_av.txt
+cat 50Kab/entropy_av.dat >> entropy_av.txt
+cat 80Kab/entropy_av.dat >> entropy_av.txt
+cat 100Kab/entropy_av.dat >> entropy_av.txt
+

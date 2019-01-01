@@ -1,0 +1,103 @@
+#!/bin/sh
+cd 0.1Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  0.1/g" 1parameter.in
+cd ..
+cd ..
+
+cd 0.125Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  0.125/g" 1parameter.in
+cd ..
+cd ..
+
+cd 0.2Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  0.2/g" 1parameter.in
+cd ..
+cd ..
+
+cd 0.25Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  0.25/g" 1parameter.in
+cd ..
+cd ..
+
+cd 0.4Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  0.4/g" 1parameter.in
+cd ..
+cd ..
+
+cd 0.5Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  0.5/g" 1parameter.in
+cd ..
+cd ..
+
+cd 0.8Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  0.8/g" 1parameter.in
+cd ..
+cd ..
+
+cd 1Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  1.0/g" 1parameter.in
+cd ..
+cd ..
+
+cd 1.25Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  1.25/g" 1parameter.in
+cd ..
+cd ..
+
+cd 1.6Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  1.6/g" 1parameter.in
+cd ..
+cd ..
+
+cd 2Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  2.0/g" 1parameter.in
+cd ..
+cd ..
+
+cd 2.5Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  2.5/g" 1parameter.in
+cd ..
+cd ..
+
+cd 3.2Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  3.2/g" 1parameter.in
+cd ..
+cd ..
+
+cd 4Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  4.0/g" 1parameter.in
+cd ..
+cd ..
+
+cd 5Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  5.0/g" 1parameter.in
+cd ..
+cd ..
+
+cd 8Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  8.0/g" 1parameter.in
+cd ..
+cd ..
+
+cd 10Kab
+cd a
+sed -i "s/'Kab                       '  0.1/'Kab                       '  10.0/g" 1parameter.in
+cd ..
+cd ..
+

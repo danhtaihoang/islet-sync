@@ -1,0 +1,19 @@
+#!/bin/sh
+rm -r 0.1Kab/a
+rm -r 0.125Kab/a
+rm -r 0.2Kab/a
+rm -r 0.25Kab/a
+rm -r 0.4Kab/a
+rm -r 0.5Kab/a
+rm -r 0.8Kab/a
+rm -r 1Kab/a
+rm -r 1.25Kab/a
+rm -r 1.6Kab/a
+rm -r 2Kab/a
+rm -r 2.5Kab/a
+rm -r 3.2Kab/a
+rm -r 4Kab/a
+rm -r 5Kab/a
+rm -r 8Kab/a
+rm -r 10Kab/a
+

@@ -1,0 +1,38 @@
+#!/bin/sh
+
+cd 1.25Kab
+./1run_ensembles_job.script
+cd ..
+
+cd 1.6Kab
+./1run_ensembles_job.script
+cd ..
+
+cd 2Kab
+./1run_ensembles_job.script
+cd ..
+
+cd 2.5Kab
+./1run_ensembles_job.script
+cd ..
+
+cd 3.2Kab
+./1run_ensembles_job.script
+cd ..
+
+cd 4Kab
+./1run_ensembles_job.script
+cd ..
+
+cd 5Kab
+./1run_ensembles_job.script
+cd ..
+
+cd 8Kab
+./1run_ensembles_job.script
+cd ..
+
+cd 10Kab
+./1run_ensembles_job.script
+cd ..
+
